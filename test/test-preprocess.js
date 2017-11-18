@@ -7,8 +7,8 @@ const preprocess = require('../src/preprocess');
 let svSequence;
 
 describe("Pre-Process Test", function() {
-    beforeEach(function() {
-    	svSequence = preprocess.load('./data/street_view_sequence.txt');    
+    beforeEach( async function() {
+    	svSequence = await preprocess.load('./test/data/street_view_sequence.txt');
     });
     describe("data attributes", function() {
         it("should have 92 entries", function() {
