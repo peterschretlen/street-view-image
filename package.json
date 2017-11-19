@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "byline": "^5.0.0",
+    "moment": "^2.19.2",
     "pump-promise": "^1.0.0",
     "through2": "^2.0.3"
   }
